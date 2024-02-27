@@ -1,0 +1,107 @@
+body {
+    font-family: 'Times New Roman', serif;
+    line-height: 1.6;
+    background-color: #a54444;
+    color: #333;
+}
+
+header {
+    background-color: #008080;
+    color: #ffd000;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffd000;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #fff; 
+}
+
+#PROFILE .profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#PROFILE .profile-info img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#PROFILE .profile-info div {
+    flex: 1; 
+}
+
+#KONTAK ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#KONTAK li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#KONTAK li img {
+    margin-right: 10px;
+}
+
+#KONTAK a {
+    text-decoration: none;
+    color: #333;
+}
+
+#KONTAK p {
+    margin-top: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #bbafaf;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #008080;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+ul, ol {
+    margin-bottom: 10px;
+}
